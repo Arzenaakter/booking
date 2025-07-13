@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking.com</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/3e42976856.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <!-- hero section -->
+    <div class="hero-section">
+      <div class="container">
+        <!-- header  -->
+        <div class="header-section">
+          <div>
+            <h1 class="logo">Booking.com</h1>
+          </div>
+          <div class="nav-items">
+            <button class="bdt nav-option" title="Select your currency">
+              BDT
+            </button>
+            <button class="lang-btn" title="Select your language">
+              <img
+                src="./images/american-flag.jpg"
+                alt="American flag"
+                class="us-flag"
+              />
+            </button>
+            <button
+              class="nav-option contact-customer"
+              title="Contact Customer Service"
+            >
+              <span class="contact-customer-q">?</span>
+            </button>
+            <button class="nav-option property-list">List your property</button>
+            <button class="register auth">Register</button>
+            <button class="signin auth">Sign in</button>
+          </div>
+        </div>
+        <!-- tabs -->
+        <div class="tabs">
+          <button class="car-btn tab-item active-tab">
+            <i class="fa-solid fa-bed"></i>
+            <span> Stays</span>
+          </button>
+          <button class="tab-item">
+            <i class="fa-solid fa-car"></i>
+            <span>Car render</span>
+          </button>
+          <button class="tab-item">
+            <i class="fa-solid fa-plane"></i>
+            <span>Flights</span>
+          </button>
+          <button class="tab-item">
+            <i class="fa-solid fa-hexagon-nodes"></i>
+            <span>Atrractions</span>
+          </button>
+          <button class="tab-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <span>Airport taxis</span>
+          </button>
+        </div>
+        <!-- heading with paragraph -->
+        <div class="hero-heading-section">
+          <h1 class="hero-heading roboto">Find your next stay</h1>
+          <p class="hero-pera">
+            Search deals on hotels, homes, and much more...
+          </p>
+        </div>
+        <!-- search section -->
+        <div class="search-section">
+          <div class="input-div">
+            <i class="fa-solid fa-cart-flatbed search-icon"></i>
+            <input
+              type="text"
+              placeholder="Why are you going ?"
+              class="destination-input"
+            />
+            <!-- <i class="fa-solid fa-xmark search-icon"></i> -->
+          </div>
+          <div class="input-div">
+            <i class="fa-solid fa-calendar-days search-icon"></i>
+            <p class="date-field">Sun, Jul 13 ~ Mon, Jul 14</p>
+          </div>
+          <div class="input-div">
+            <i class="fa-solid fa-user search-icon"></i>
+            <p>Sugar Loft Apartmentssef</p>
+          </div>
+
+          <button class="hero-search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
