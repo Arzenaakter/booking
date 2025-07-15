@@ -6,7 +6,7 @@ const homes = [
     rating: 8.8,
     ratingText: "Excellent",
     reviews: 3306,
-    image: "./images/Aparthotel.webp",
+    image: "images/Aparthotel.webp",
     link: "#",
     bdt: 19980,
   },
