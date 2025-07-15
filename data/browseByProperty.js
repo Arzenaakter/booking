@@ -2,7 +2,7 @@ const browseByProperty = [
   {
     id: 1,
     title: "Hotels",
-    image: "/images/hotels.jpeg",
+    image: "./images/hotels.jpeg",
     link: "#",
   },
   { id: 2, title: "Apartments", link: "#", image: "/images/apartment.jpeg" },
