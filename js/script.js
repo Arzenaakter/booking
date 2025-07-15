@@ -199,6 +199,10 @@ function updateButtons() {
   leftBtn.style.display = scrollLeft > 0 ? "block " : "none";
   rightBtn.style.display = scrollLeft < maxScrollLeft ? "block" : "block";
 }
+
+updateButtons();
+slider.addEventListener("scroll", updateButtons);
+
 function updateBrowsButtons() {
   const browsScrollLeft = browseSlider.browsScrollLeft;
   const browseMaxScrollLeft =
@@ -209,7 +213,5 @@ function updateBrowsButtons() {
     browsScrollLeft < browseMaxScrollLeft ? "block" : "block";
 }
 
-updateButtons();
 updateBrowsButtons();
-slider.addEventListener("scroll", updateButtons);
-browseSlider.addEventListener("scroll", updateButtons);
+browseSlider.addEventListener("scroll", updateBrowsButtons);
