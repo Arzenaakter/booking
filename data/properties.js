@@ -6,7 +6,7 @@ const properties = [
     rating: 9.7,
     ratingText: " Truly exceptional",
     reviews: 97,
-    image: "/images/dumki.webp",
+    image: "./images/dumki.webp",
     link: "#",
   },
   {
@@ -16,7 +16,7 @@ const properties = [
     rating: 8.0,
     ratingText: "Truly exceptional",
     reviews: 679,
-    image: "/images/sugar-soft.webp",
+    image: "./images/sugar-soft.webp",
     link: "#",
   },
   {
