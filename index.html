@@ -28,7 +28,7 @@
   </head>
   <body>
     <!-- hero section -->
-    <div class="hero-section">
+    <header class="hero-section">
       <div class="container">
         <!-- header  -->
         <div class="header-section">
@@ -110,7 +110,251 @@
           <button class="hero-search-btn">Search</button>
         </div>
       </div>
+    </header>
+    <!-- main content body-->
+    <div class="container main-content">
+      <!-- Still interested in these properties -->
+      <div class="interested-properties">
+        <h2 class="roboto">
+          Are you still interested in these accommodations?
+        </h2>
+        <div class="interested-properties-grid"></div>
+      </div>
+      <!-- offer -->
+      <div class="offer-box">
+        <h2 class="roboto">Offers</h2>
+        <p class="sub-title">Promotions, deals, and special offers for you</p>
+        <div class="offer-grid-box">
+          <div class="quick-escape">
+            <div class="quick-escape-left">
+              <h3 class="roboto">Quick escape, quality time</h3>
+              <p>Save up to 20% with a Getaway Deal</p>
+              <button>Save on stays</button>
+            </div>
+            <div>
+              <img
+                src="./images/escape-left-img.PNG"
+                alt=""
+                width="100"
+                height="100"
+                style="border-radius: 5px"
+              />
+            </div>
+          </div>
+          <div
+            class="escape-right"
+            style="
+              background-image: url('./images/escape-right-img.PNG');
+              background-repeat: no-repeat;
+
+              background-size: cover;
+              background-position: center;
+              border-radius: 8px;
+            "
+          >
+            <p>Vacation rentals</p>
+            <h2 class="roboto">Live the dream in a vacation home</h2>
+            <p>Choose from houses, villas, cabins, and more</p>
+            <button>Book yours</button>
+          </div>
+        </div>
+      </div>
+      <!-- popular with travelers section -->
+      <div class="">
+        <h2 class="roboto">Popular with travelers from Bangladesh</h2>
+        <!-- popular travel tabs -->
+        <div class="popular-travel-tabs">
+          <button
+            onclick="handlePopularTab(event,'domestic')"
+            class="popular-travel-tab-item popular-active-tab"
+          >
+            Domestic cities
+          </button>
+          <button
+            onclick="handlePopularTab(event,'internationalCities')"
+            class="popular-travel-tab-item"
+          >
+            International cities
+          </button>
+          <button
+            onclick="handlePopularTab(event,'region')"
+            class="popular-travel-tab-item"
+          >
+            Regions
+          </button>
+          <button
+            onclick="handlePopularTab(event,'countries')"
+            class="popular-travel-tab-item"
+          >
+            Countries
+          </button>
+          <button
+            onclick="handlePopularTab(event,'placeToStay')"
+            class="popular-travel-tab-item"
+          >
+            Places to stay
+          </button>
+        </div>
+        <!-- domestic tab item -->
+        <div
+          id="domestic"
+          class="domestic-tab popular-tab"
+          style="display: grid"
+        ></div>
+        <!-- internationa tab item -->
+        <div
+          id="internationalCities"
+          class="internaional-cities-tab popular-tab"
+          style="display: none"
+        ></div>
+        <!-- region tab item -->
+        <div
+          id="region"
+          class="region-cities-tab popular-tab"
+          style="display: none"
+        ></div>
+        <!-- countries tab item -->
+        <div
+          id="countries"
+          class="countires-tab popular-tab"
+          style="display: none"
+        ></div>
+        <!-- places tab item -->
+        <div
+          id="placeToStay"
+          class="places-tab popular-tab"
+          style="display: none"
+        ></div>
+      </div>
+
+      <!--bottom links -->
+      <div class="bttom-links">
+        <a href="">Countries '</a>
+        <a href="">Regions '</a>
+        <a href="">Cities '</a>
+        <a href="">Districts '</a>
+        <a href="">Airports '</a>
+        <a href="">Hotels '</a>
+        <a href="">Places of interest '</a>
+        <a href="">Vacation Homes '</a>
+        <a href="">Apartments '</a>
+        <a href="">Resorts '</a>
+        <a href="">Villas '</a>
+        <a href="">Hostels '</a>
+        <a href="">B&Bs '</a>
+        <a href="">Guest Houses '</a>
+        <a href="">Unique places to stay '</a>
+        <a href="">All destinations '</a>
+        <a href="">All flight destinations '</a>
+        <a href="">All car rental locations '</a>
+        <a href=""> All vacation destinations '</a>
+        <a href="">Guides '</a>
+        <a href="">Discover '</a>
+        <a href="">Reviews '</a>
+        <a href="">Discover monthly stays </a>
+      </div>
     </div>
-    <script src="./js/home.js"></script>
+    <!-- footer -->
+    <footer>
+      <div class="container footer-top">
+        <!--  -->
+        <div>
+          <h5>Support</h5>
+          <div class="footer-links">
+            <a href="#">Coronavirus (COVID-19) FAQs</a>
+            <a href="#">Manage your trips</a>
+            <a href="#">Contact Customer Service</a>
+            <a href="#">Safety Resource Center</a>
+          </div>
+        </div>
+        <!--  -->
+        <div>
+          <h5>Discover</h5>
+          <div class="footer-links">
+            <a href="#">Genius loyalty program</a>
+            <a href="#">Seasonal and holiday deals</a>
+            <a href="#">Travel articles</a>
+            <a href="#">Booking.com for Business</a>
+            <a href="#">Traveller Review Awards</a>
+            <a href="#">Car rental</a>
+            <a href="#">Flight finder</a>
+            <a href="#">Restaurant reservations</a>
+            <a href="#">Booking.com for Travel Agents</a>
+          </div>
+        </div>
+        <!--  -->
+        <div>
+          <h5>Terms and settings</h5>
+          <div class="footer-links">
+            <a href="#">Privacy & cookies</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Accessibility Statement</a>
+            <a href="#">Partner dispute</a>
+            <a href="#">Modern Slavery Statement</a>
+            <a href="#">Human Rights Statement</a>
+          </div>
+        </div>
+        <!--  -->
+        <div>
+          <h5>Partners</h5>
+          <div class="footer-links">
+            <a href="#">Extranet login</a>
+            <a href="#">Partner help</a>
+            <a href="#">List your property</a>
+            <a href="#">Become an affiliate</a>
+          </div>
+        </div>
+        <!--  -->
+        <div>
+          <h5>About</h5>
+          <div class="footer-links">
+            <a href="#">About Booking.com</a>
+            <a href="#">How We Work</a>
+            <a href="#">Sustainability</a>
+            <a href="#">Press center</a>
+            <a href="#">Careers</a>
+            <a href="#">Investor relations</a>
+            <a href="#">Corporate contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-items">
+          <button class="footer-lang-btn" title="Select your language">
+            <img
+              src="./images/american-flag.jpg"
+              alt="American flag"
+              class="us-flag"
+            />
+          </button>
+          <button class="footer-bdt" title="Select your currency">BDT</button>
+        </div>
+        <hr class="hr-line" />
+        <div class="">
+          <p class="footer-text">
+            Booking.com is part of Booking Holdings Inc., the world leader in
+            online travel and related services.
+          </p>
+          <p class="footer-text">
+            Copyright © 1996–2025 Booking.com™. All rights reserved.
+          </p>
+          <div class="footer-logo-items">
+            <h4 class="footer-logo">Booking.com</h4>
+            <img src="./images/priceline.png" alt="" />
+            <img src="./images/kayak.png" alt="" />
+            <img src="./images/agoda.png" alt="" />
+            <img src="./images/open.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./data/countries.js"></script>
+    <script src="./data/domesticHotels.js"></script>
+    <script src="./data/homes.js"></script>
+    <script src="./data/hotelTypes.js"></script>
+    <script src="./data/properties.js"></script>
+    <script src="./data/regions.js"></script>
+    <script src="./data/internationalHotels.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

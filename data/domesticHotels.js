@@ -1,0 +1,17 @@
+const domesticHotels = [
+  { id: 1, title: "Chittagong hotels", link: "#" },
+  { id: 2, title: "Sylhet hotels", link: "#" },
+  { id: 3, title: "Khulna hotels", link: "#" },
+  { id: 4, title: "Cox's Bazar hotels", link: "#" },
+  { id: 5, title: "Rājshāhi hotels", link: "#" },
+  { id: 6, title: "Patenga hotels", link: "#" },
+  { id: 7, title: "Dhaka hotels", link: "#" },
+  { id: 8, title: "Ināni hotels", link: "#" },
+  { id: 9, title: "Bāndarban hotels", link: "#" },
+  { id: 10, title: "Sylhet hotels", link: "#" },
+  { id: 11, title: "Comilla hotels", link: "#" },
+  { id: 12, title: "Banani Model Town hotels", link: "#" },
+  { id: 13, title: "Sreemangal hotels", link: "#" },
+  { id: 14, title: "Kuākāta hotels", link: "#" },
+  { id: 15, title: "Tāngāil hotels", link: "#" },
+];
